@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Погода</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="weather-container">
+        <h1>Погода</h1>
+        
+        <!-- Форма поиска -->
+        <div class="search-form">
+            <input type="text" id="cityInput" placeholder="Введите город">
+            <button id="searchBtn">Найти</button>
+        </div>
+
+        <!-- Блок для вывода данных -->
+        <div id="weatherInfo" class="weather_info">
+            <div id="cityName"></div>
+            <div id="temp"></div>
+            <img id="icon" alt="Погода">
+            <div id="description"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
